@@ -1,20 +1,21 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      views: '@/views',
-      components: '@/components',
-      content: 'components/content',
-      common: 'components/common',
-      assets: '@/assets',
-      api: '@/api',
-      utils: '@/utils',
-      store: '@/store',
-      hooks: '@/hooks',
+      '@': 'src',
+      'views': '@/views',
+      'components': '@/components',
+      'content': 'components/content',
+      'common': 'components/common',
+      'assets': '@/assets',
+      'api': '@/api',
+      'utils': '@/utils',
+      'store': '@/store',
+      'hooks': '@/hooks',
     },
   },
   server: {
@@ -28,4 +29,4 @@ export default defineConfig({
       },
     },
   },
-});
+})

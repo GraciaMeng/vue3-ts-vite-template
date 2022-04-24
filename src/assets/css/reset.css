@@ -1,0 +1,23 @@
+/* @import "normalize.css/normalize"; */
+body,div,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+a {
+  text-decoration: none;
+  /* 点击高亮我们需要清除 */
+  -webkit-tap-highlight-color: transparent;
+}
+a:visited {
+  color: #000;
+}
+input {
+  -webkit-appearance: none;
+}
+img, a {
+  -webkit-touch-callout: none;
+}
+
